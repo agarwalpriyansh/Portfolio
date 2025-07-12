@@ -40,7 +40,7 @@ const Navbar = () => {
                 <li><a className='font-Ovo text-base' href="#top">Home</a></li>
                 <li><a className='font-Ovo text-base' href="#about">About Me</a></li>
                 <li><a className='font-Ovo text-base' href="#project">Projects</a></li>
-                <li><a className='font-Ovo text-base' href="#contact">Contact Us</a></li>
+                <li><a className='font-Ovo text-base' href="#contact">Contact</a></li>
             </ul>
             
             <div className='flex items-center gap-4 ' >
