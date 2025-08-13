@@ -14,14 +14,15 @@ const Project = () => {
       <p className='text-center max-w-2xl mx-auto mt-4 mb-12 font-Ovo'>
         Here are some of my recent projects that showcase my skills and creativity. Each project reflects my passion for web development and my commitment to delivering high-quality work.
       </p>
-      <div className="px-4 sm:px-6 lg:px-8 overflow-x-hidden mb-20">
-        <div className="grid grid-cols-1 sm:grid-cols-3 xl:grid-cols-4 gap-4">
+      <div className="px-4 sm:px-6 lg:px-8 overflow-x-hidden mb-20 
+                sm:translate-x-[5%] lg:translate-x-[13%]">
+                 <div className="grid grid-cols-1 sm:grid-cols-3 xl:grid-cols-4 gap-6 lg:gap-8">
           {workData.map(({ title, description, bgImage }, index) => (
             <div
               key={index}
               className="bg-white rounded-md p-3 shadow-md"
             >
-              <div className="relative w-full h-48 rounded-md overflow-hidden mb-3">
+                             <div className="relative w-[105%] h-48 rounded-md overflow-hidden mb-3 -ml-[2.5%]">
                 <img src={bgImage} alt={title} className="w-full h-full object-cover" />
               </div>
 
