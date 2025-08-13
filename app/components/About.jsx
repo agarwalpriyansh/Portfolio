@@ -18,7 +18,7 @@ const About = () => {
             </div>
             <div className=''>
                 <p className='mb-7 max-w-2xl font-Ovo'>
-                     Passionate and self-driven Computer Science student with a strong foundation in full-stack web development. Skilled in JavaScript, React, Node.js, MongoDB, and Tailwind CSS. I enjoy building clean, responsive applications and constantly learning new technologies. Currently focused on improving my DSA skills and exploring backend architecture, AI, and cloud computing.
+                As a passionate Computer Science student, I enjoy solving complex problems and building real-world solutions. I have a solid foundation in DSA and core CS subjects like DBMS, OOPs, and Computer Networks. On the frontend, I work with React, Next.js, and Tailwind CSS, while on the backend, I use Node.js, Express, MongoDB, and REST APIs. I actively participate in hackathons and coding contests, constantly learning and improving through hands-on experience.
                 </p>
 
                 <ul className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl'>

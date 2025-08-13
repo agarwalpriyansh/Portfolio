@@ -18,7 +18,7 @@ const Header = () => {
         </h1>
 
         <p className='max-w-2xl mx-auto font-Ovo'>
-            Passionate and self-driven Computer Science student 
+        CSE undergrad at NIT Surat, passionate about web development and problem-solving. I love building efficient, user-friendly applications and contributing to meaningful tech projects. 
         </p>
 
         <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
