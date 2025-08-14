@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import { assets } from '@/assets/assets.js'
+import { assets } from '../../assets/assets.js'
 
 const Footer = () => {
   return (

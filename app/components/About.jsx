@@ -1,4 +1,4 @@
-import { assets, infoList,toolsData } from '@/assets/assets.js'
+import { assets, infoList,toolsData } from '../../assets/assets.js'
 import React from 'react'
 import Image from 'next/image'
 
