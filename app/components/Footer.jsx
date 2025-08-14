@@ -17,8 +17,8 @@ const Footer = () => {
             <p>© 2025 Priyansh Agarwal. All rights reserved</p>
             <ul className='flex items-center justify-center gap-10 sm:mt-0'>
                 <li><a href='https://github.com/agarwalpriyansh' >Git Hub</a></li>
-                <li><a href='https://www.linkedin.com/in/priyansh-agarwal-b180b52b0/'></a>Linkedln</li>
-                <li><a href='https://leetcode.com/u/Priyanshh_agarwal/'></a>Leetcode</li>
+                <li><a href='https://www.linkedin.com/in/priyansh-agarwal-b180b52b0/'>Linkedln</a></li>
+                <li><a href='https://leetcode.com/u/Priyanshh_agarwal/'>Leetcode</a></li>
             </ul>
         </div>
     </div>
