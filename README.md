@@ -14,11 +14,7 @@ Built with **React**, **Tailwind CSS**, and a sleek, user-friendly design.
 - **Frontend:** React, Tailwind CSS
 - **Deployment:** Vercel / Netlify
 
-## 📸 Screenshots
-![Portfolio Screenshot](./screenshot.png)  
-*(Replace with actual screenshot)*
 
-## 📂 Installation & Setup
 
 1. **Clone the repository**
    ```bash
