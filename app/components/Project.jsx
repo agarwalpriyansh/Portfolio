@@ -3,6 +3,11 @@ import Image from 'next/image'
 import React from 'react'
 
 const Project = () => {
+  const projectUrls = {
+    kovari: 'https://kovari.vercel.app',
+    kashvi: 'https://kashvi-creation-psi.vercel.app/',
+    blabber: 'https://blabber-0us3.onrender.com/login',
+  }
   return (
     <div id="project" className='w-full px-[12%] py-10 scroll-mt-15'>
       <h4 className='text-center mb-2 text-lg font-Ovo'>
@@ -28,7 +33,14 @@ const Project = () => {
 
               <div className="flex justify-between items-center mb-2">
                 <h3 className="text-lg font-medium text-gray-800">{title}</h3>
-                <Image src={assets.send_icon} alt="arrow" className="w-4" />
+                {(() => {
+                  const url = projectUrls[title.toLowerCase()] || '#'
+                  return (
+                    <a href={url} target="_blank" rel="noopener noreferrer" aria-label={`Open ${title}`}>
+                      <Image src={assets.send_icon} alt="open project" className="w-4 cursor-pointer" />
+                    </a>
+                  )
+                })()}
               </div>
 
               <p className="text-base text-gray-600 leading-tight break-words">{description}</p>
