@@ -40,7 +40,7 @@ const Navbar = () => {
                 <li><a className='font-Ovo text-base' href="#top">Home</a></li>
                 <li><a className='font-Ovo text-base' href="#about">About Me</a></li>
                 <li><a className='font-Ovo text-base' href="#project">Projects</a></li>
-                <li><a className='font-Ovo text-base' href="#contact">Contact</a></li>
+                <li><a className='font-Ovo text-base' href="#contact">Contact Me</a></li>
             </ul>
             
             <div className='flex items-center gap-4 ' >
@@ -65,7 +65,7 @@ const Navbar = () => {
                 <li><a className='font-Ovo text-lg' href="#top" onClick={closeMenu}>Home</a></li>
                 <li><a className='font-Ovo text-lg' href="#about" onClick={closeMenu}>About Me</a></li>
                 <li><a className='font-Ovo text-lg' href="#project" onClick={closeMenu}>Projects</a></li>
-                <li><a className='font-Ovo text-lg' href="#contact" onClick={closeMenu}>Contact Us</a></li>
+                <li><a className='font-Ovo text-lg' href="#contact" onClick={closeMenu}>Contact Me</a></li>
             </ul>
 
 
